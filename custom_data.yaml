@@ -1,0 +1,9 @@
+# Number of classes in the custom dataset
+nc: 10
+
+# Names of the classes
+names: ["person", "bottle", "laptop", "microwave", "cell phone", "book", "bed", "dining table", "chair", "toothbrush"]
+
+# Path to the training and validation sets (images and labels)
+train: ../coco2017/images/train
+val: ../coco2017/images/val
